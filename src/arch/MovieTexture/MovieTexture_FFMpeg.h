@@ -14,7 +14,7 @@ namespace avcodec
 		#include <libswscale/swscale.h>
 		#include <libavutil/pixdesc.h>
 
-		#if LIBAVCODEC_VERSION_MAJOR >= 58
+		#if LIBAVCODEC_VERSION_MAJOR >= 57
 		#define av_free_packet av_packet_unref
 		#define PixelFormat AVPixelFormat
 		#define PIX_FMT_YUYV422 AV_PIX_FMT_YUYV422
