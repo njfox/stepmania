@@ -3,7 +3,7 @@
 	url = https://github.com/fmtlib/fmt.git
 [submodule "extern/ffmpeg-git"]
 	path = extern/ffmpeg-git
-	url = https://github.com/stepmania/ffmpeg.git
+	url = https://github.com/njfox/ffmpeg.git
 [submodule "extern/googletest"]
 	path = extern/googletest
 	url = https://github.com/stepmania/googletest.git
